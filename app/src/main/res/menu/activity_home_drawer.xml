@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_own_profile"
+            android:icon="@drawable/ic_portrait_black_24dp"
+            android:title="Own Profile" />
+        <item
+            android:id="@+id/nav_find_friend"
+            android:icon="@drawable/ic_person_add_black_24dp"
+            android:title="Find Friend" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_post_job"
+            android:icon="@drawable/ic_rate_review_black_24dp"
+            android:title="Post Job" />
+        <item
+            android:id="@+id/nav_search_job"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="Search Job" />
+        <item
+            android:id="@+id/nav_send_gift"
+            android:icon="@drawable/ic_card_giftcard_black_24dp"
+            android:title="Send Gift" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_date_range_black_24dp"
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_upcoming_birthday"
+            android:icon="@drawable/ic_cake_black_24dp"
+            android:title="Upcoming Birthday" />
+        <item
+            android:id="@+id/nav_create_events"
+            android:icon="@drawable/ic_date_range_black_24dp"
+            android:title="Create Events" />
+    </group>
+</menu>

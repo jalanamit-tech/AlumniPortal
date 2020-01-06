@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo_bg"
+
+    tools:context=".activity.SplashActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/layoutcollegename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="30dp">
+        <TextView
+            android:id="@+id/textrajasthan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:textColor="#E53935"
+            android:text="ECK"/>
+        <TextView
+            android:id="@+id/textuniversity"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:textColor="#111"
+            android:text="KOTA"
+            android:layout_marginLeft="95dp"/>
+        <View android:layout_width="@dimen/view_width_small"
+            android:layout_height="60dp"
+            android:id="@+id/splashview"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/textuniversity"
+            android:background="#E53935"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/splashview">
+            <TextView
+                android:id="@+id/textrtu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#111"
+                android:text="ECK"/>
+            <TextView
+                android:id="@+id/textalunmi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textrtu"
+                android:textColor="#111"
+                android:text="Alumni"/>
+            <TextView
+                android:id="@+id/textassociation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textalunmi"
+                android:textColor="#111"
+                android:text="Association"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/layoutcollegename">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hard Works Always Wins"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#111"/>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F77B78</color>
+    <color name="colorPrimaryDark">#E71E19</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="gradientViolet">#EC4D49</color>
+    <color name="gradientLightBlue">#EC615E</color>
+    <color name="white">#ffffff</color>
+    <color name="gradientLightorange">#F86335</color>
+    <color name="purple_500">#9C27B0</color>
+    <color name="deep_purple_500">#9C27B0</color>
+
+    <color name="profile_starting">#12D0E7</color>
+    <color name="profile_ending">#10709C</color>
+    <color name="friend_starting">#62C467</color>
+    <color name="friend_ending">#228826</color>
+    <color name="post_job_starting">#F5683C</color>
+    <color name="post_job_ending">#AA3815</color>
+    <color name="search_job_starting">#EE4F88</color>
+    <color name="search_job_ending">#A3184B</color>
+    <color name="birthday_starting">#734BC7</color>
+    <color name="birthday_ending">#1F2F8F</color>
+    <color name="event_starting">#4ECCBF</color>
+    <color name="event_ending">#137C71</color>
+    <color name="dashboardbackground_starting">#F3AEAD</color>
+    <color name="dashboardbackground_ending">#fff</color>
+
+
+
+
+</resources>

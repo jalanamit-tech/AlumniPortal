@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DashBoard.NavigationFragment.CreateEventActivity">
+        <RelativeLayout
+            android:id="@+id/layoutcollegename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="30dp">
+            <TextView
+                android:id="@+id/textrajasthan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textColor="#E53935"
+                android:text="ECK"/>
+            <TextView
+                android:id="@+id/textuniversity"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textColor="#111"
+                android:text="KOTA"
+                android:layout_marginLeft="95dp"/>
+            <View android:layout_width="@dimen/view_width_small"
+                android:layout_height="60dp"
+                android:id="@+id/splashview"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/textuniversity"
+                android:background="#E53935"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/splashview">
+                <TextView
+                    android:id="@+id/textrtu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#111"
+                    android:text="ECK"/>
+                <TextView
+                    android:id="@+id/textalunmi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textrtu"
+                    android:textColor="#111"
+                    android:text="Alumni"/>
+                <TextView
+                    android:id="@+id/textassociation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textalunmi"
+                    android:textColor="#111"
+                    android:text="Association"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/collegemotto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@id/layoutcollegename">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hard Works Always Wins"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#111"/>
+        </RelativeLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/collegemotto">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="0dp"
+                    android:orientation="vertical"
+                    android:paddingLeft="24dp"
+                    android:paddingTop="26dp"
+                    android:paddingRight="24dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/titletxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/proximanovaregular"
+                        android:gravity="center"
+                        android:text="Create Event"
+                        android:textColor="#3c4b5d"
+                        android:textSize="22sp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/userinfo_tab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/events_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/circularbordersolid"
+                    android:gravity="center"
+                    android:padding="18dp">
+
+                    <EditText
+                        android:id="@+id/editTextevent_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:fontFamily="@font/proximanovaregular"
+                        android:hint="Event Name"
+                        android:inputType="text"
+                        android:textColorHint="#b6bcc5"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+                        <LinearLayout
+                            android:id="@+id/date_start"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/circularbordersolid"
+                            android:gravity="center"
+                            android:padding="18dp">
+
+                            <EditText
+                                android:id="@+id/editTextevent_date_start"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@null"
+                                android:fontFamily="@font/proximanovaregular"
+                                android:hint="Event Start"
+                                android:inputType="text"
+                                android:textColorHint="#b6bcc5"
+                                android:textSize="14sp" />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:id="@+id/event_ends"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/circularbordersolid"
+                            android:gravity="center"
+                            android:padding="18dp">
+
+                            <EditText
+                                android:id="@+id/editTextevent_date_ends"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@null"
+                                android:fontFamily="@font/proximanovaregular"
+                                android:hint="Events End"
+                                android:inputType="text"
+                                android:textColorHint="#b6bcc5"
+                                android:textSize="14sp" />
+
+                        </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/event_category"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/circularbordersolid"
+                        android:gravity="center"
+                        android:padding="18dp">
+
+                        <Spinner
+                            android:id="@+id/event_category_spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:entries="@array/eventCategory"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/event_location"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/circularbordersolid"
+
+                        android:padding="18dp">
+
+                        <EditText
+                            android:id="@+id/editTexteventlocation"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:fontFamily="@font/proximanovaregular"
+                            android:hint="Location"
+                            android:inputType="text"
+                            android:textColorHint="#b6bcc5"
+                            android:textSize="14sp" />
+                        <!--<ImageView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="90dp"-->
+                            <!--android:src="@drawable/briefcase"/>-->
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/event_host_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/circularbordersolid"
+
+                        android:padding="18dp">
+
+                        <EditText
+                            android:id="@+id/editTexteventhostname"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:fontFamily="@font/proximanovaregular"
+                            android:hint="HostName"
+                            android:inputType="text"
+                            android:textColorHint="#b6bcc5"
+                            android:textSize="14sp" />
+                        <!--<ImageView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="90dp"-->
+                        <!--android:src="@drawable/briefcase"/>-->
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/event_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/circularbordersolid"
+                        android:padding="18dp">
+
+                        <EditText
+                            android:id="@+id/editTexteventdiscription"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:fontFamily="@font/proximanovaregular"
+                            android:hint="Purpose/objective"
+                            android:inputType="text"
+                            android:textColorHint="#b6bcc5"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+                    <Button
+                        android:id="@+id/buttonRegister"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginBottom="14dp"
+                        android:background="@drawable/circularbluebordersolid"
+                        android:fontFamily="@font/proximanovaregular"
+                        android:padding="16dp"
+                        android:text="Create Event"
+                        android:textColor="@color/white" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </ScrollView>
+
+</RelativeLayout>
